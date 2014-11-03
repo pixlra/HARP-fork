@@ -1,0 +1,8 @@
+=========================================
+x265 binaries (32- and 64-Bit):
+=========================================
+(c) by x265.org
+Unmodified. x265 source code available here: http://http://x265.org/
+x265 is licensed under GNU GPL (see HARP_License.txt for GNU GPL license text).
+
+
