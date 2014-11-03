@@ -66,6 +66,10 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${RootDir}/bin)
 #------------------------------------
 MESSAGE( STATUS "\n__________PYTHON + NUMPY_____________")
 #add_definitions( -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION ) # cannot force new numpy API (FIXME)
+#+++++ In order to compile in GENTOO:
+set (PYTHON_LIBRARY "/usr/lib64/libpython2.7.so")
+set (PYTHON_INCLUDE_DIR "/usr/include/python2.7")
+#+++++++++++++++++++
 find_package ( PythonLibs REQUIRED )
 MESSAGE( STATUS "PYTHON_LIBRARIES=${PYTHON_LIBRARIES}")
 MESSAGE( STATUS "PYTHON_INCLUDE_PATH=${PYTHON_INCLUDE_PATH}")

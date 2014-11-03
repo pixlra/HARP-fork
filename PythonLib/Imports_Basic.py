@@ -18,7 +18,7 @@ import copy
 import fileinput
 import platform
 import stat
-import Image
+from PIL import Image
 import array
 import threading 
 import struct
